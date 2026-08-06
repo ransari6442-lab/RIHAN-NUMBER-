@@ -1,0 +1,28 @@
+name: number_shot_ai
+description: Premium Number Shot AI App
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/sounds/
+
+  fonts:
+    - family: Digital
+      fonts:
+        - asset: assets/fonts/Digital.ttf
